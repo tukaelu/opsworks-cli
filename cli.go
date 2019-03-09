@@ -1,11 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"os"
-)
+import "github.com/tukaelu/opsworks-cli/cmd"
 
 func main() {
-	fmt.Println("CLI for AWS OpsWorks")
-	os.Exit(0)
+	cmd.Execute()
 }
